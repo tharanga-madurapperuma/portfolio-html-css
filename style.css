@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.firstPage{
+    background: linear-gradient(rgb(1, 7, 37), rgb(1, 1, 41), rgb(4, 20, 75), rgb(1, 1, 29));
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar-outer{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: #ffffff1c;
+    height: 80px;
+}
+
+.navbar-outer ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-outer ul li{
+    display: inline-block;
+    margin: 0 30px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.navbar-outer ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.navbar-outer ul li a:hover{
+    color: #0066ee;
+}
+
+.firstSection{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.firstSection__left{
+    width: 100%;
+}
+
+.firstSection__left h2{
+    font-size: 3rem;
+}
+
+.firstSection__left h2 span{
+    color: #0066ee;
+}
+
+.firstSection__left p{
+    margin-top: 20px;
+    color: rgba(255,255,255, 0.6);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+.firstSection__right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-image img{
+    width: 90%;
+}
+
+.right-image img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.secondSection, 
+.thirdSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.secondSection__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0 100px 0;
+}
+
+.secondSection__content ul{
+    width: 30%;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondSection__content li{
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 5px;
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.secondSection__content ul li i{
+    margin-right: 10px;
+    font-size: 1.4rem !important;
+}
+
+.thirdSection__content{
+    margin: 50px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.thirdSection__content > div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.content-left,
+.content-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.content-right input,
+.content-left input{
+    background-color: rgba(255, 255, 255, 0.288);
+    padding: 10px 0 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 92%;
+    margin-bottom: 5px;
+}
+
+.content input{
+    background-color: rgba(255, 255, 255, 0.288);
+    padding: 10px 0 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 96%;
+    margin-bottom: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column !important;
+}
+
+.content textarea{
+    background-color: rgba(255, 255, 255, 0.288);
+    padding: 10px 0 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 96%;
+    margin-bottom: 5px;
+    height: 100px;
+}
+
+
+.thirdSection__content input::placeholder,
+.content textarea::placeholder{
+    color: #ffffff7e;
+}
+
+.thirdSection__content button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0066ee;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.socialMedia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.socialMedia i{
+    font-size: 2rem;
+    margin: 10px 10px 50px 10px;
+    transition: 0.5s;
+}
+
+.socialMedia i:hover{
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px #0066ee;
+}
+
+/* Project Page */
+
+
+.projects__firstSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.projects-title{
+    font-size: 1.6rem;
+    margin: 100px 0 50px 0;
+    color: #0066ee;
+}
+
+.firstSection_projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.projects-firstProject,
+.projects-secondProject{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.project-left,
+.project-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px ;
+}
+
+.project-right p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #ffffff7e;
+    line-height: 1.2rem;
+}
+
+.project-right-tech{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-right-tech ul{
+    width: 100%;
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    flex-direction: row;
+    text-wrap: nowrap; 
+    text-align: center; 
+}
+
+.project-right-tech ul li{
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.project-right h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #ffffffe1;
+    margin-bottom: 40px;
+}
+
+.project-left-image{
+    width: 100%;
+    height: 400px;
+}
+
+.project-left-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projects-secondProject{
+    margin-bottom: 200px;
+}
